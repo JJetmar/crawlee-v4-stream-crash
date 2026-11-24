@@ -1,0 +1,13 @@
+{
+    "name": "crawlee-v4-stream-crash",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "v3": "node repro.mjs crawlee3",
+        "v4": "node repro.mjs crawlee4"
+    },
+    "dependencies": {
+        "crawlee3": "npm:crawlee@3.18.2",
+        "crawlee4": "npm:crawlee@4.0.0-rc.2"
+    }
+}
